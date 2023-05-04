@@ -264,17 +264,17 @@
 
   .card .media.media--hover-effect > img:first-child:only-child,
   .card-wrapper .media.media--hover-effect > img:first-child:only-child {
-    transition: opacity var(--duration-long) ease;
+    transition: opacity var(--duration-short) ease;
   }
 
   .card .media.media--hover-effect > img:first-child:not(:only-child),
   .card-wrapper .media.media--hover-effect > img:first-child:not(:only-child) {
-    transition: opacity var(--duration-long) ease;
+    transition: opacity var(--duration-short) ease;
   }
 
   .card .media.media--hover-effect > img + img,
   .card-wrapper .media.media--hover-effect > img + img {
-    transition: transform var(--duration-long) ease, opacity var(--duration-long) ease;
+    transition: transform var(--duration-long) ease, opacity var(--duration-short) ease;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,
